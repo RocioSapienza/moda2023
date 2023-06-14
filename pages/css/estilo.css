@@ -1,0 +1,191 @@
+* { 
+    margin: 2px;
+    padding: 2px;
+}
+body {  
+    padding: 20px;
+    margin: 20px;
+    line-height: 2;
+
+    background: rgb(177, 170, 172);
+    background: linear-gradient(90deg, rgb(221, 189, 198) 0%, rgb(150, 149, 136) 35%, rgba(207, 186, 146, 0.397) 100%);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+@media only screen and (min-width: 600px){
+    body{
+        background-color: bisque;
+    }
+}
+@media only screen and (min-width: 768px){
+    body{
+        background-color: rgb(238, 215, 230);
+    }
+}
+a{
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+a:hover{
+    font-weight: bold;
+    background-color: rgb(104, 68, 68);
+    color: white;
+
+}
+
+.sastreria{
+    padding: 20px;
+    margin: 20px;
+    line-height: 0.5;
+}
+.transparencias1 {
+    padding: 20px;
+    margin: 20px;
+    line-height: 0.5px;
+}
+.estilo{
+    font-family: cursive;
+    color: darkgrey;
+}
+.parrafo1{
+    padding: 10px;
+    margin: 10px;
+    line-height: 1.5;
+    color:rgb(1, 24, 10)
+}
+.parrafo2{
+    color:rgb(8, 54, 33)
+}
+.usuario{
+    color: rgb(53, 126, 81)
+}
+.prendas{
+    color:rgb(21, 48, 22)
+}
+.prendas2{
+    color: rgb(21, 48, 22)
+}
+.estilo{
+    font-family: cursive;
+    color: rgb(4, 5, 22)
+    
+}
+
+.estilo2{
+    color:burlywood
+}
+
+.pantalones{
+    color:darkolivegreen
+}
+.pant2{
+    color:rgb(21, 48, 22)
+}
+.estilo2{ 
+    color:darkolivegreen
+}
+.prendas2{
+    color:darkolivegreen
+}
+.moda{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px;
+    padding: 10px;
+    color:rgb(14, 22, 15)
+}
+.moda2{
+    margin: 15px;
+    padding: 10px;
+    color:rgb(44, 48, 38)
+}
+.ss{
+    color:darkolivegreen
+}
+.color1{
+    color:rgb(14, 8, 41)
+
+}
+.moda3{
+    color:rgb(21, 48, 22)
+}
+.accesorios1{
+    color: rgb(40, 50, 187)
+    
+}
+.denim{
+    margin: 12px;
+    padding: 8px;
+}
+.colores1{
+    margin: 12px;
+    padding: 8px;
+}
+
+.accesorios2{
+    color:rgb(21, 48, 22)
+}
+.desfile{
+    color: rgb(21, 48, 22)
+}
+.desfile2{
+    color:darkolivegreen
+}
+
+.footer1{
+    margin: 50px;
+    padding: 50px;
+}
+.prendas2{
+    padding: 1rem;
+    margin: 10px;
+    line-height: 1;
+}
+.novedades{
+    color:white
+}
+.sastre{
+    padding: 15px;
+    margin: 10px;
+}
+.colores{
+    margin: 2px;
+    padding: 70px;
+}
+
+.contenedor{
+    background-color: rgb(177, 154, 127);
+    width: 70%;
+    height: 100vh;
+    border: solid rgb(216, 210, 178);
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    grid-template-areas: 
+    "hijoa hijoa hijoa hijob"
+    "hijoc hijod hijoe hijoi"
+}
+.hijoa{
+    grid-area: hijoa;
+}
+.hijob{
+    grid-area: hijob;
+}
+.hijoc{
+    grid-area: hijoc;
+}
+.hijod{
+    grid-area: hijod;
+}
+.hijoe{
+    grid-area: hijoe;
+}    
+.hijoi{
+    grid-area: hijoi;
+}
+
+
+ul {
+    list-style:none; 
+    }
