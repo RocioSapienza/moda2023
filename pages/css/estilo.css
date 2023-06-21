@@ -7,20 +7,11 @@ body {
     margin: 20px;
     line-height: 2;
 
-    background: rgb(177, 170, 172);
+    background: rgb(185, 173, 176);
     background: linear-gradient(90deg, rgb(221, 189, 198) 0%, rgb(150, 149, 136) 35%, rgba(207, 186, 146, 0.397) 100%);
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
-@media only screen and (min-width: 600px){
-    body{
-        background-color: bisque;
-    }
-}
-@media only screen and (min-width: 768px){
-    body{
-        background-color: rgb(238, 215, 230);
-    }
-}
+
 a{
     padding: 5px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -153,10 +144,10 @@ a:hover{
 }
 
 .contenedor{
-    background-color: rgb(177, 154, 127);
+    background-color: rgb(231, 223, 213);
     width: 70%;
     height: 100vh;
-    border: solid rgb(216, 210, 178);
+    border: solid rgb(228, 226, 219);
     margin: 100px auto;
     display: grid;
     grid-template-columns: 2fr 2fr;
@@ -188,4 +179,14 @@ a:hover{
 
 ul {
     list-style:none; 
+    }
+    @media only screen and (min-width: 600px){
+        body{
+            background-color: bisque;
+        }
+    }
+    @media only screen and (min-width: 768px){
+        body{
+            background-color: rgb(238, 215, 230);
+        }
     }
