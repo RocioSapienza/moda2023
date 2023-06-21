@@ -173,20 +173,20 @@ a:hover{
     grid-area: hijoe;
 }    
 .hijoi{
-    grid-area: hijoi;
+    grid-area: hijoi;   
 }
 
 
 ul {
     list-style:none; 
     }
-    @media only screen and (min-width: 600px){
-        body{
-            background-color: bisque;
-        }
-    }
-    @media only screen and (min-width: 768px){
+    @media only screen and (min-width: 760px){
         body{
             background-color: rgb(238, 215, 230);
+        }
+    }
+    @media only screen and (max-width: 600){
+        body{
+            background-color: bisque;
         }
     }
